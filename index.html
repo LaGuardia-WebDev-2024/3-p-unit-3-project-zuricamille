@@ -6,7 +6,7 @@ Requirements
 [  ] Three Images
 
 Select ONE Additional Feature to Add  
-[ no ] Feature 1 - Include a :hover feature
+[ yes ] Feature 1 - Include a :hover feature
 [ no ] Feature 2 - Include at least two Internal links
 [ no ] Feature 3 - Include a list in a tabl
 [ no ] Feature 4 - Include at least two background images in a table
@@ -19,41 +19,47 @@ Select ONE Additional Feature to Add
   <title>Project: Recipe book</title>
   <meta charset="utf-8">
   <style>
+    body {background-color:pink}  
+    thead:hover {color:white}
+    h1:hover {color:white}
+    table, th, td {border:1px solid}
+    
   </style>
 </head>
 
 <body>
 
-  <h1>____'s Recipe Book</h1>
+  <h1>Zuri's Wishlist</h1>
 
-  <h2>Contents:</h2>
-
-  <ol>
-    <li><a href="?">Recipe #1</a></li>
-  </ol>
-
-  <h2 id="?">Recipe #1</h2>
-
-  <ul>
-    <li>Time: _</li>
-    <li>Serves: _</li>
-  </ul>
-
+  
   <table>
     <thead>
       <tr>
-        <th>Ingredients</th>
-        <th>Quantity</th>
+        <th>Item</th>
+        <th>Brand</th>
+        <th>Price</th>
       </tr>
     </thead>
     <tbody>
+      <tr>
+      <td><img src="https://cdn-images.farfetch-contents.com/24/56/75/22/24567522_54517233_1000.jpg"width=200</td>
+      <td><a href="https://www.coach.com/products/brooklyn-shoulder-bag-39/CU044.html">Coach</a></td>
+      <td>$495</td>
+      </tr>
+      <tr>
+      <td><img src="https://cdn-images.farfetch-contents.com/17/74/88/25/17748825_37301131_1000.jpg"width=200</td>
+      <td><a href="https://us.isabelmarant.com/products/bk0010faa1e19s23ec-bekett-sneakers-ecru">Isabel Marant shoes</a></td>
+      <td>$745</td>
+      </tr>
+      <tr>
+      <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRE-caxGL4-mDCgV4yGUmZWmM0xVrtKTvPKg&s"width=200</td>
+      <td><a href="https://www.mooseknucklescanada.com/us-en/p/orginal-debbie-shearling-bomber-jacket-m32lb002s?filter=adult_size:361-color_id:3227">Pink Moose Knuckle</a></td>
+      <td>$1,190</td>
+      </tr>
     </tbody>
   </table>
 
-  <p><strong>Step 1:</strong> Do something.
-  </p>
-
-  <p><em>Source: <a href="?">Some recipes websites</a></em></p>
+  
 
 </body>
 
